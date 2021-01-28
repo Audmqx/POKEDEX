@@ -42,15 +42,16 @@ echo "\n";
 
 do {
 
-		if (isset($it->input) ) {  
+		if (isset($it->input)) 
+		{  
 			$it->actionDeux();
-
-			$it->action();
 			echo "\n";
-
 		}
+			
+		else 
+		{ $it->action();
 			echo "\n";
-		} else {  
+		}
 
 
 switch ($it->input) {
